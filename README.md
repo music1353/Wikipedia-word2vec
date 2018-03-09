@@ -40,7 +40,7 @@ model = word2vec.Word2vec.load("model/20180309wiki_model.bin")
    res = model.most_similar(query, topn=10)
 
    for item in res:
-   	print(item[0] +','+ str(item[1]))
+       print(item[0] +','+ str(item[1]))
    ```
 
 2. 計算兩個詞的餘弦相似度（cosine）
