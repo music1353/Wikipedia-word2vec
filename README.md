@@ -20,6 +20,23 @@ wiki_text.txt -> zh_wiki_text.txt
 
 
 
+## gensim word2vec參數
+
+```python
+class gensim.models.word2vec.Word2Vec(sentences=None, size=100, alpha=0.025, window=5, min_count=5, max_vocab_size=None, sample=0.001, seed=1, workers=3, min_alpha=0.0001, sg=0, hs=0, negative=5, cbow_mean=1, hashfxn=<built-in function hash>, iter=5, null_word=0, trim_rule=None, sorted_vocab=1, batch_words=10000)
+```
+
+* sentence：語料訓練集
+* size：訓練出的詞向量（特徵向量）維度
+* alpha：學習速率
+* window：當前詞與預測詞在一個句子中的最大距離
+* sg：設置訓練演算法，0=CBOW，1=skip-grim
+* min_count：詞頻少於min_count的數會被丟掉
+* workers：執行緒數目
+* negative：若>0，則會採用Negative Sampling（負採樣）
+
+
+
 ## Load Model
 
 ```python
