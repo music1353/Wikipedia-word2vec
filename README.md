@@ -87,6 +87,6 @@ model = word2vec.Word2Vec.load("model/20180309wiki_model.bin")
 
 ## 訓練好的model下載
 
-20171201版本（使用jieba）：<a href="https://drive.google.com/file/d/1BJmXftGSnPqYCNf539HQKSQ2KKno7bbI/view?usp=sharing">Google Drive</a>
+20171201版本（使用jieba）：<a href="https://drive.google.com/file/d/1WEHTrBbOnmdUyTz-Xy1yqlFvkLQuir8J/view?usp=sharing">Google Drive</a>
 
-20180309版本（jieba_tw + stopwords）：<a href="https://drive.google.com/file/d/1gpoE-WJmRVMe3Tu0NOKvyvAaR-Si7TfL/view?usp=sharing">Google Drive</a>
+20180309版本（jieba_tw + stopwords）：<a href="https://drive.google.com/file/d/12XJYBSgiqRQznDigr2O360RCzntJ-Uif/view?usp=sharing">Google Drive</a>
