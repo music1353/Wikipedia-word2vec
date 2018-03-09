@@ -41,7 +41,7 @@ class gensim.models.word2vec.Word2Vec(sentences=None, size=100, alpha=0.025, win
 
 ```python
 from gensim.models import word2vec
-model = word2vec.Word2vec.load("model/20180309wiki_model.bin")
+model = word2vec.Word2Vec.load("model/20180309wiki_model.bin")
 ```
 
 
