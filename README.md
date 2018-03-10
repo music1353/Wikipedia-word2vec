@@ -1,6 +1,6 @@
 ## 維基百科詞向量model
 
-* 語料來源：<a herf="https://zh.wikipedia.org/wiki/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD">維基百科資料庫</a>
+* 語料來源：<a href="https://zh.wikipedia.org/wiki/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD">維基百科資料庫</a>
 * 使用相關庫：
   * word2vec套件：<a href="https://github.com/RaRe-Technologies/gensim">gensim</a>
   * 斷詞套件：<a href="https://github.com/fxsjy/jieba">結巴中文分詞</a>, <a href="https://github.com/ldkrsi/jieba-zh_TW">結巴_TW</a>
